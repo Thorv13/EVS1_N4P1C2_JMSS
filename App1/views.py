@@ -12,7 +12,7 @@ def vista1(request):
 
 def vista3(request):
     html="""
-    <h1>hola</h1>
+    <h1>hi my name is checkman</h1>
     """
     return HttpResponse(html)
 
