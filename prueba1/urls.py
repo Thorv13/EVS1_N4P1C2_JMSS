@@ -21,8 +21,13 @@ from App2 import views as vistatwo
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+<<<<<<< HEAD
     path('vista1/', version1.vista1),
     path('vista2/', vistatwo.vista2),
     path('vista3/', version1.vista3),
     path('vista4/', vistatwo.vista4),
+=======
+    path('version1/', version1.vista1),
+    path('version3/', version1.vista3),
+>>>>>>> rama1
 ]
