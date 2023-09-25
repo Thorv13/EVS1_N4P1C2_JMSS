@@ -15,5 +15,3 @@ def vista3(request):
     <h1>hi my name is checkman</h1>
     """
     return HttpResponse(html)
-
-
