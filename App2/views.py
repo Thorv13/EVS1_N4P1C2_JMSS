@@ -10,4 +10,9 @@ def vista2(request):
     """
     return HttpResponse(html)
 
+def vista4(request):
+    html="""
+    <h1>hola que tal x2</h1>
+    """
+    return HttpResponse(html)
 
