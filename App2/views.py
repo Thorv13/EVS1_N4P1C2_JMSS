@@ -6,7 +6,7 @@ from django.http import HttpResponse
 
 def vista2(request):
     html="""
-    <h1>hola</h1>
+    <h1>hola que tal x2</h1>
     """
     return HttpResponse(html)
 
